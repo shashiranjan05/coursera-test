@@ -1,0 +1,1 @@
+!function(){function n(n,o){n.name="shashi",n.upper=function(){var e=o("uppercase");n.name=e(n.name)}}angular.module("myFirstApp",[]).controller("myFirstController",["$scope","$filter",n]),console.log(n.toString())}();

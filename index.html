@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myFirstApp">
   <head>
     <meta charset="utf-8">
-    <title>Coursera Projects</title>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>Angular app</title>
   </head>
-  <body>
-    <h1>Coursera project ,I am thrilled about this course </h1>
-  </body>
+  <h1>my first app </h1>
+  <body ng-controller="myFirstController">
+    <input type="text" ng-model="name" ng-blur="upper()">
+   </body>
 </html>
